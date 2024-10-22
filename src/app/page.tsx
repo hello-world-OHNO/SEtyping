@@ -15,12 +15,12 @@ export default function Home() {
     >
       <Box w="60%" p={5} bg="white" boxShadow="xl" borderRadius="lg">
         <Text textAlign="center" fontSize="50px" fontWeight="bold" color="#333">
-          エンたい！
+          Engineer　Typing
         </Text>
         <Flex justify="center">
           <Image src={TopImg} alt="トップイメージ" width={400} height={400} />
         </Flex>
-        <Flex justify="space-between" mb={6}>
+        <Flex justify="space-between" m={6}>
           <Button
             size="lg"
             w="115px"
